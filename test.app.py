@@ -88,5 +88,6 @@ else:
     st.info("Ce graphique montre la position des pays pour l'année sélectionnée. Utilisez le curseur dans la barre latérale pour changer d'année.")
     
     # On peut afficher le tableau de données en dessous pour plus de détails
-    st.dataframe(df_display[['Country', 'Niveau_Revenu', 'CurrentAccountBalance', 'BudgetBalance']].set_index('Country'))```
+    st.dataframe(df_display[['Country', 'Niveau_Revenu', 'CurrentAccountBalance', 'BudgetBalance']].set_index('Country'))
+
 
