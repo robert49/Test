@@ -90,11 +90,3 @@ else:
     # On peut afficher le tableau de données en dessous pour plus de détails
     st.dataframe(df_display[['Country', 'Niveau_Revenu', 'CurrentAccountBalance', 'BudgetBalance']].set_index('Country'))```
 
-### Prochaines Étapes
-
-1.  **Mettez à Jour `app.py` sur GitHub** avec ce nouveau code.
-2.  **Ajoutez `donnees_macro...xlsx` à ce dépôt de test.** (N'oubliez pas de le téléverser).
-3.  **Vérifiez `requirements.txt` :** Il ne doit contenir que `streamlit` et `pandas` (et `openpyxl`).
-4.  Allez sur Streamlit Cloud et faites **"Reboot"** sur votre application de test.
-
-Cette fois, comme nous n'utilisons plus `plotly`, l'application se lancera. Ce ne sera pas l'animation de vos rêves, mais ce sera un **outil fonctionnel et partageable**, ce qui est une immense victoire.
